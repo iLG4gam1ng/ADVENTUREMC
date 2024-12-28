@@ -1,0 +1,928 @@
+[28Dec2024 18:59:17.060] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[28Dec2024 18:59:17.064] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[28Dec2024 18:59:19.331] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Dec2024 18:59:19.422] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ADVENTUREMC/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[28Dec2024 18:59:20.088] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 18:59:20.090] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 18:59:20.111] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 18:59:20.119] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 18:59:20.591] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/ADVENTUREMC/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[28Dec2024 18:59:20.592] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[28Dec2024 18:59:24.998] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Dec2024 18:59:25.210] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[28Dec2024 18:59:25.269] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[28Dec2024 18:59:25.459] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[28Dec2024 18:59:25.471] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[28Dec2024 18:59:25.724] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 138 options available, 0 override(s) found
+[28Dec2024 18:59:25.768] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.805] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.841] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.872] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.873] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.875] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:25.883] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 18:59:26.374] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[28Dec2024 18:59:26.375] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[28Dec2024 18:59:26.375] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[28Dec2024 18:59:28.979] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[28Dec2024 18:59:35.668] [main/WARN] [mixin/]: Method overwrite conflict for setBlockState in the_bumblezone-common.mixins.json:blocks.FallingBlockEntityAccessor, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
+[28Dec2024 18:59:42.197] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zfa000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[28Dec2024 18:59:43.690] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[28Dec2024 18:59:44.716] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[28Dec2024 18:59:44.722] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[28Dec2024 18:59:44.726] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[28Dec2024 18:59:44.737] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[28Dec2024 18:59:44.743] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[28Dec2024 18:59:44.749] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[28Dec2024 18:59:44.751] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[28Dec2024 18:59:44.808] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[28Dec2024 18:59:44.844] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[28Dec2024 18:59:44.854] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[28Dec2024 18:59:44.861] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[28Dec2024 18:59:44.892] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[28Dec2024 18:59:44.944] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[28Dec2024 18:59:44.948] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[28Dec2024 18:59:44.972] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[28Dec2024 18:59:44.988] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[28Dec2024 18:59:45.076] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[28Dec2024 18:59:45.106] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[28Dec2024 18:59:45.118] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[28Dec2024 18:59:45.171] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[28Dec2024 18:59:45.173] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[28Dec2024 18:59:45.175] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[28Dec2024 18:59:47.170] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[28Dec2024 18:59:47.217] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[28Dec2024 18:59:49.557] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[28Dec2024 18:59:52.363] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[28Dec2024 18:59:52.434] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[28Dec2024 18:59:52.867] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@2047981 on thread Thread[#28,modloading-worker-0,5,main]
+[28Dec2024 18:59:52.867] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23239!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23239!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23239!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23239!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23275!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23274!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[28Dec2024 18:59:52.875] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[28Dec2024 18:59:53.132] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[28Dec2024 18:59:53.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[28Dec2024 18:59:53.522] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[28Dec2024 18:59:53.529] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[28Dec2024 18:59:53.538] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[28Dec2024 18:59:53.546] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[28Dec2024 18:59:53.551] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[28Dec2024 18:59:53.559] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[28Dec2024 18:59:53.910] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[28Dec2024 18:59:54.080] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[28Dec2024 18:59:54.082] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[28Dec2024 18:59:59.583] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[28Dec2024 19:00:00.923] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@5b57bd5b has been registered twice for the same name treechop:chop_wood.
+[28Dec2024 19:00:20.615] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Dec2024 19:00:20.617] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Dec2024 19:00:20.618] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[28Dec2024 19:00:20.619] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[28Dec2024 19:00:20.624] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Dec2024 19:00:20.625] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Dec2024 19:00:20.626] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[28Dec2024 19:00:20.627] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[28Dec2024 19:00:20.636] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Dec2024 19:00:20.637] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Dec2024 19:00:20.638] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[28Dec2024 19:00:20.649] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[28Dec2024 19:00:20.896] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[28Dec2024 19:00:22.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda/0x000071c322037c70@3dd9e647] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@271409c2] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[28Dec2024 19:00:22.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda/0x000071c322035460@39e54794] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[28Dec2024 19:00:22.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda/0x000071c322035ae0@27915bb6] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@271409c2]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[28Dec2024 19:00:22.814] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[28Dec2024 19:00:22.823] [main/INFO] [Easy NPC/]: Register data serializers ...
+[28Dec2024 19:00:22.823] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.824] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[28Dec2024 19:00:22.825] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[28Dec2024 19:00:22.825] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.826] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.826] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.827] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.827] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.830] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.831] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.831] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.832] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.832] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.833] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.834] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.835] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[28Dec2024 19:00:22.836] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.836] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[28Dec2024 19:00:22.837] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.837] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[28Dec2024 19:00:22.838] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.838] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[28Dec2024 19:00:22.839] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.840] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[28Dec2024 19:00:22.841] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.841] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[28Dec2024 19:00:22.842] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[28Dec2024 19:00:22.842] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[28Dec2024 19:00:22.843] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[28Dec2024 19:00:22.843] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.844] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[28Dec2024 19:00:22.845] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.845] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.846] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.846] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.847] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.847] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.848] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[28Dec2024 19:00:22.848] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[28Dec2024 19:00:22.848] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[28Dec2024 19:00:22.881] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[28Dec2024 19:00:22.882] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[28Dec2024 19:00:22.883] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.883] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.885] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.885] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.886] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.886] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.887] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[28Dec2024 19:00:22.889] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[28Dec2024 19:00:22.889] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.890] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.890] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.891] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.892] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.893] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.893] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[28Dec2024 19:00:22.894] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[28Dec2024 19:00:22.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.895] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.895] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.897] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.898] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.899] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.900] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.900] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.901] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[28Dec2024 19:00:22.902] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[28Dec2024 19:00:22.903] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.903] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.904] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.904] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.906] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.908] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.909] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.909] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.910] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.910] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.911] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[28Dec2024 19:00:22.912] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[28Dec2024 19:00:22.913] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[28Dec2024 19:00:22.913] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[28Dec2024 19:00:22.914] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[28Dec2024 19:00:22.985] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[28Dec2024 19:00:23.016] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[28Dec2024 19:00:23.269] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@728d01db with version 21 ...
+[28Dec2024 19:00:23.460] [modloading-worker-0/INFO] [com.axedgaming.endersdelight.EndersDelight/]: HELLO FROM PREINIT
+[28Dec2024 19:00:23.469] [modloading-worker-0/INFO] [com.axedgaming.endersdelight.EndersDelight/]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[28Dec2024 19:00:23.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[28Dec2024 19:00:23.928] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[28Dec2024 19:00:23.930] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[28Dec2024 19:00:23.933] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[28Dec2024 19:00:23.935] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[28Dec2024 19:00:23.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[28Dec2024 19:00:23.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[28Dec2024 19:00:24.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.14 Target: 1.20.1-1.0.19
+[28Dec2024 19:00:24.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[28Dec2024 19:00:24.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[28Dec2024 19:00:24.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[28Dec2024 19:00:24.596] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[28Dec2024 19:00:24.725] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[28Dec2024 19:00:24.727] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[28Dec2024 19:00:24.728] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[28Dec2024 19:00:24.733] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[28Dec2024 19:00:24.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.5 Target: 1.0.8
+[28Dec2024 19:00:24.832] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[28Dec2024 19:00:24.930] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[28Dec2024 19:00:25.004] [main/INFO] [journeymap/]: Initializing Packet Registries
+[28Dec2024 19:00:25.047] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[28Dec2024 19:00:25.048] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[28Dec2024 19:00:25.048] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[28Dec2024 19:00:25.048] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[28Dec2024 19:00:25.049] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[28Dec2024 19:00:25.049] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[28Dec2024 19:00:25.049] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[28Dec2024 19:00:25.171] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[28Dec2024 19:00:25.176] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[28Dec2024 19:00:25.178] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 4 for type OVERWORLD
+[28Dec2024 19:00:25.182] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
+[28Dec2024 19:00:25.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[28Dec2024 19:00:25.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[28Dec2024 19:00:25.235] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[28Dec2024 19:00:25.260] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[28Dec2024 19:00:25.277] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[28Dec2024 19:00:25.279] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[28Dec2024 19:00:25.288] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[28Dec2024 19:00:25.289] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
+[28Dec2024 19:00:25.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[28Dec2024 19:00:25.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[28Dec2024 19:00:25.564] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23274!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23274!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[28Dec2024 19:00:25.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[28Dec2024 19:00:25.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[28Dec2024 19:00:25.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Dec2024 19:00:26.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[28Dec2024 19:00:26.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[28Dec2024 19:00:26.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
+[28Dec2024 19:00:26.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[28Dec2024 19:00:26.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.12 Target: null
+[28Dec2024 19:00:26.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[28Dec2024 19:00:27.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.140.2 Target: null
+[28Dec2024 19:00:27.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[28Dec2024 19:00:27.022] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23274!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23274!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[28Dec2024 19:00:37.457] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Dec2024 19:00:46.080] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23273!/assets/.mcassetsroot' uses unexpected schema
+[28Dec2024 19:00:46.082] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ADVENTUREMC/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23273!/data/.mcassetsroot' uses unexpected schema
+[28Dec2024 19:00:50.667] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[28Dec2024 19:00:51.496] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
+[28Dec2024 19:00:51.509] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
+[28Dec2024 19:00:53.062] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[28Dec2024 19:00:53.217] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'redeco:soul_terrarium'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[28Dec2024 19:00:54.977] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[28Dec2024 19:00:55.321] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[28Dec2024 19:00:55.343] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:55.556] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[28Dec2024 19:00:55.567] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:55.686] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_ishi
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23253!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:55.843] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:56.014] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[28Dec2024 19:00:56.016] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:tofu_diamond_blade
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofu_upgrade_smithing_template'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:56.114] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_metal
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23253!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:56.168] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 37 recipes
+[28Dec2024 19:00:56.395] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement slashblade_addon:recipes/combat/tofu_diamond_blade: Unknown item id 'slashblade_addon:slashblade_tofu_metal'
+[28Dec2024 19:00:56.545] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[28Dec2024 19:00:56.636] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4344 advancements
+[28Dec2024 19:00:56.848] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[28Dec2024 19:00:56.861] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[28Dec2024 19:00:56.863] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[28Dec2024 19:00:56.977] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:56.983] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[28Dec2024 19:00:56.984] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23278!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23273!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Dec2024 19:00:56.988] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[28Dec2024 19:00:57.133] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[28Dec2024 19:00:57.155] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[28Dec2024 19:01:05.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[28Dec2024 19:01:05.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Dec2024 19:01:05.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Dec2024 19:01:05.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Dec2024 19:01:05.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Dec2024 19:01:05.408] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Dec2024 19:01:05.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Dec2024 19:01:05.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Dec2024 19:01:05.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Dec2024 19:01:05.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Dec2024 19:01:05.606] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 19:01:05.607] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 19:01:05.608] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 19:01:05.650] [Server thread/INFO] [YAWP-Config/]: Detected JourneyMap to be loaded beside YAWP.
+[28Dec2024 19:01:05.651] [Server thread/INFO] [YAWP-Config/]: Setting YAWP base command to '/yawp'
+[28Dec2024 19:01:05.651] [Server thread/INFO] [YAWP-Config/]: 0 UUID(s) with permission read from config
+[28Dec2024 19:01:05.697] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-common.toml'
+[28Dec2024 19:01:05.698] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-common.toml'
+[28Dec2024 19:01:05.699] [Server thread/INFO] [YAWP-Config/]: 5 Block Entity entries read from config: minecraft:armor_stand, minecraft:item_frame, minecraft:glow_item_frame, minecraft:painting, minecraft:leash_knot
+[28Dec2024 19:01:05.700] [Server thread/INFO] [YAWP-Config/]: 0 Block Entity tag entries read from config
+[28Dec2024 19:01:05.701] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-flags.toml'
+[28Dec2024 19:01:05.702] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-flags.toml'
+[28Dec2024 19:01:05.703] [Server thread/INFO] [YAWP-Config/]: 0 default flag(s) for Local Regions read from config
+[28Dec2024 19:01:05.717] [Server thread/INFO] [YAWP-Config/]: 0 default flag(s) for Dimensional Regions read from config
+[28Dec2024 19:01:05.718] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-region-defaults.toml'
+[28Dec2024 19:01:05.719] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-region-defaults.toml'
+[28Dec2024 19:01:05.726] [Server thread/INFO] [YAWP-Config/]: Logging flag checks: false
+[28Dec2024 19:01:05.727] [Server thread/INFO] [YAWP-Config/]: Logging flag check results: true
+[28Dec2024 19:01:05.728] [Server thread/INFO] [YAWP-Config/]: Logging flag categories: [player]
+[28Dec2024 19:01:05.728] [Server thread/INFO] [YAWP-Config/]: Logging flags: [place-blocks,break-blocks]
+[28Dec2024 19:01:05.728] [Server thread/INFO] [YAWP-Config/]: Logging empty flag results: false
+[28Dec2024 19:01:05.731] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-logging.toml'
+[28Dec2024 19:01:05.732] [Thread-1/INFO] [YAWP-Config/]: Reloaded: 'yawp-logging.toml'
+[28Dec2024 19:01:05.845] [Server thread/INFO] [Framework/]: Loading server configs...
+[28Dec2024 19:01:06.005] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[28Dec2024 19:01:07.078] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[28Dec2024 19:01:07.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Dec2024 19:01:07.798] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[28Dec2024 19:01:19.163] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / the_bumblezone:the_bumblezone] with concurrent set.
+[28Dec2024 19:01:19.237] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / graveyard:past] with concurrent set.
+[28Dec2024 19:01:26.871] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[28Dec2024 19:01:26.879] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[28Dec2024 19:01:26.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Dec2024 19:01:41.743] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.746] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.747] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.753] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.755] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.757] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.760] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.766] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.770] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.771] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.776] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.783] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.786] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.787] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.790] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.790] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.796] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.803] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.805] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.810] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.811] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.815] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.818] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.820] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.822] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:41.882] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:42.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:42.882] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:43.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 19:01:43.946] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/1, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.022] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/1, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.023] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/1, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.084] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/2, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.088] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/2, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.092] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/2, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.100] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/3, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.103] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/3, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.104] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/3, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.196] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/22, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.197] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/22, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.197] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/22, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.221] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/23, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.222] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/23, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.227] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/23, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.284] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/32, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.285] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/32, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.285] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/32, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.337] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/38, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.338] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/38, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.338] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/38, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.379] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/87, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.383] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/87, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.383] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/87, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.420] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/109, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.427] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/109, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.428] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/109, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.462] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/118, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.463] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/118, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.463] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/118, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.526] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/158, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.527] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/158, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.528] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/158, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.542] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/162, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.543] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/162, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.544] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/162, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.553] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/166, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.554] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/166, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.554] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/166, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.588] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/185, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.589] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/185, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.592] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/185, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.630] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/200, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.631] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/200, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.632] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/200, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.639] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/203, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.640] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/203, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.640] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/203, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.702] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for Humanoid['entity.easy_npc.humanoid'/215, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.Humanoid) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.703] [Server thread/INFO] [Easy NPC/]: Register default handler for Humanoid['entity.easy_npc.humanoid'/215, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant STEVE ...
+[28Dec2024 19:01:44.704] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for Humanoid['entity.easy_npc.humanoid'/215, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:44.715] [Server thread/INFO] [Easy NPC/]: Initialized SynchedEntityData for HumanoidSlim['entity.easy_npc.humanoid_slim'/218, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] (class de.markusbordihn.easynpc.entity.easynpc.npc.HumanoidSlim) with {ATTACK_IS_AGGRESSIVE=<entity data: 21>, ATTACK_IS_CHARGING_CROSSBOW=<entity data: 22>, ATTRIBUTE_CAN_BE_LEASHED=<entity data: 24>, ATTRIBUTE_CAN_CLOSE_DOOR=<entity data: 26>, ATTRIBUTE_CAN_FLOAT=<entity data: 25>, ATTRIBUTE_CAN_OPEN_DOOR=<entity data: 27>, ATTRIBUTE_CAN_PASS_DOOR=<entity data: 28>, ATTRIBUTE_CAN_USE_NETHER_PORTAL=<entity data: 29>, ATTRIBUTE_DATA_LOADED=<entity data: 23>, ATTRIBUTE_FREEFALL=<entity data: 30>, ATTRIBUTE_IS_ATTACKABLE=<entity data: 31>, ATTRIBUTE_IS_PUSHABLE=<entity data: 32>, ATTRIBUTE_LIGHT_LEVEL=<entity data: 34>, ATTRIBUTE_PUSH_ENTITIES=<entity data: 33>, MODEL_ARMS_POSITION=<entity data: 62>, MODEL_ARMS_ROTATION=<entity data: 70>, MODEL_ARMS_SCALE=<entity data: 54>, MODEL_ARMS_VISIBLE=<entity data: 78>, MODEL_BODY_POSITION=<entity data: 61>, MODEL_BODY_ROTATION=<entity data: 69>, MODEL_BODY_SCALE=<entity data: 53>, MODEL_BODY_VISIBLE=<entity data: 77>, MODEL_BOOTS_VISIBLE=<entity data: 86>, MODEL_CHESTPLATE_VISIBLE=<entity data: 84>, MODEL_HEAD_POSITION=<entity data: 60>, MODEL_HEAD_ROTATION=<entity data: 68>, MODEL_HEAD_SCALE=<entity data: 52>, MODEL_HEAD_VISIBLE=<entity data: 76>, MODEL_HELMET_VISIBLE=<entity data: 83>, MODEL_LEFT_ARM_POSITION=<entity data: 63>, MODEL_LEFT_ARM_ROTATION=<entity data: 71>, MODEL_LEFT_ARM_SCALE=<entity data: 55>, MODEL_LEFT_ARM_VISIBLE=<entity data: 79>, MODEL_LEFT_LEG_POSITION=<entity data: 65>, MODEL_LEFT_LEG_ROTATION=<entity data: 73>, MODEL_LEFT_LEG_SCALE=<entity data: 57>, MODEL_LEFT_LEG_VISIBLE=<entity data: 81>, MODEL_LEGGINGS_VISIBLE=<entity data: 85>, MODEL_LOCK_ROTATION=<entity data: 67>, MODEL_POSE=<entity data: 51>, MODEL_RIGHT_ARM_POSITION=<entity data: 64>, MODEL_RIGHT_ARM_ROTATION=<entity data: 72>, MODEL_RIGHT_ARM_SCALE=<entity data: 56>, MODEL_RIGHT_ARM_VISIBLE=<entity data: 80>, MODEL_RIGHT_LEG_POSITION=<entity data: 66>, MODEL_RIGHT_LEG_ROTATION=<entity data: 74>, MODEL_RIGHT_LEG_SCALE=<entity data: 58>, MODEL_RIGHT_LEG_VISIBLE=<entity data: 82>, MODEL_ROOT_ROTATION=<entity data: 75>, MODEL_SMART_ANIMATIONS=<entity data: 59>, NAVIGATION_HOME_POSITION=<entity data: 35>, OWNER_UUID=<entity data: 36>, PROFESSION=<entity data: 37>, SCALE_X=<entity data: 87>, SCALE_Y=<entity data: 88>, SCALE_Z=<entity data: 89>, SKIN_NAME=<entity data: 39>, SKIN_TYPE=<entity data: 42>, SKIN_URL=<entity data: 40>, SKIN_UUID=<entity data: 41>, SOUND_DATA_SET=<entity data: 43>, TRADING_BASIC_MAX_USES=<entity data: 48>, TRADING_BASIC_REWARDED_XP=<entity data: 49>, TRADING_INVENTORY=<entity data: 44>, TRADING_MERCHANT_OFFERS=<entity data: 45>, TRADING_RESETS_EVERY_MIN=<entity data: 47>, TRADING_TYPE=<entity data: 46>, VARIANT=<entity data: 50>, RENDER_DATA=<entity data: 38>}
+[28Dec2024 19:01:44.716] [Server thread/INFO] [Easy NPC/]: Register default handler for HumanoidSlim['entity.easy_npc.humanoid_slim'/218, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] with variant ALEX ...
+[28Dec2024 19:01:44.717] [Server thread/INFO] [Easy NPC/]: Define custom server-side data for HumanoidSlim['entity.easy_npc.humanoid_slim'/218, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00] ...
+[28Dec2024 19:01:45.206] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 18325 ms
+[28Dec2024 19:01:45.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (39.623s)! For help, type "help"
+[28Dec2024 19:01:45.337] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Dec2024 19:01:45.416] [Server thread/INFO] [YAWP/]: Loaded global region data
+[28Dec2024 19:01:45.417] [Server thread/INFO] [YAWP/]: Loading region(s) for 1 dimension(s)
+[28Dec2024 19:01:45.424] [Server thread/INFO] [YAWP/]: Loading 1 region(s) for dimension 'minecraft:overworld'
+[28Dec2024 19:01:45.437] [Server thread/INFO] [YAWP/]: Loaded 1 region(s) for dimension 'minecraft:overworld'
+[28Dec2024 19:01:45.438] [Server thread/INFO] [YAWP/]: Restoring region hierarchy for regions in dimension 'minecraft:overworld'
+[28Dec2024 19:01:45.439] [Server thread/INFO] [YAWP/]: Loaded 1 region(s) for 1 dimension(s)
+[28Dec2024 19:01:47.554] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2109ms or 42 ticks
+[28Dec2024 19:01:47.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[28Dec2024 19:06:25.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made iLG4 no longer a server operator
+[28Dec2024 19:06:26.154] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLG4[/100.93.133.52:62144] logged in with entity id 447 at (222.9629422272415, 85.0, 19.916910002215435)
+[28Dec2024 19:06:26.194] [Server thread/INFO] [Modonomicon/]: Building books ...
+[28Dec2024 19:06:26.204] [Server thread/INFO] [Modonomicon/]: Books built.
+[28Dec2024 19:06:26.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLG4 joined the game
+[28Dec2024 19:06:27.375] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2281ms or 45 ticks
+[28Dec2024 19:06:28.417] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2122ms or 42 ticks behind
+[28Dec2024 19:06:30.333] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 69daf4d4-6d87-3491-8fdd-cb111a5c6323 was loaded
+[28Dec2024 19:06:50.064] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2277ms or 45 ticks

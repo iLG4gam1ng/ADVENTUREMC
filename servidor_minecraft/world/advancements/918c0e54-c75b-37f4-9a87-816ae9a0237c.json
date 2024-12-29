@@ -55,8 +55,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:savanna_plateau": "2024-12-29 18:35:21 +0000",
+      "minecraft:stony_peaks": "2024-12-29 18:35:24 +0000",
+      "minecraft:forest": "2024-12-29 18:35:51 +0000",
       "minecraft:flower_forest": "2024-12-29 16:46:38 +0000",
       "minecraft:meadow": "2024-12-29 16:48:20 +0000",
+      "minecraft:savanna": "2024-12-29 18:35:45 +0000",
       "minecraft:plains": "2024-12-29 16:36:54 +0000"
     },
     "done": false
@@ -69,7 +73,9 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "shrubland": "2024-12-29 16:44:58 +0000"
+      "woodland": "2024-12-29 18:35:53 +0000",
+      "shrubland": "2024-12-29 16:44:58 +0000",
+      "scrubland": "2024-12-29 18:35:59 +0000"
     },
     "done": false
   },
@@ -97,6 +103,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_shovel": "2024-12-29 18:38:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-29 18:32:15 +0000"
@@ -109,9 +121,21 @@
     },
     "done": true
   },
+  "occultism:recipes/food/crafting/demons_dream_essence_from_seeds": {
+    "criteria": {
+      "has_datura": "2024-12-29 18:41:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2024-12-29 18:32:15 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/dirt_slab": {
+    "criteria": {
+      "has_dirt": "2024-12-29 18:36:32 +0000"
     },
     "done": true
   },
@@ -124,6 +148,12 @@
   "vampirism:recipes/decorations/general/tombstone2": {
     "criteria": {
       "has_stone": "2024-12-29 18:32:15 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/dictionary_of_spirits": {
+    "criteria": {
+      "has_datura": "2024-12-29 18:41:10 +0000"
     },
     "done": true
   },
@@ -196,6 +226,18 @@
   "slashblade:movesets": {
     "criteria": {
       "crafting": "2024-12-29 18:31:38 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/oat_seeds": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 18:38:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_shovel": "2024-12-29 18:38:21 +0000"
     },
     "done": true
   },
@@ -274,6 +316,12 @@
   "mcwwindows:recipes/arrow_slits_gothic": {
     "criteria": {
       "has_wood": "2024-12-29 18:32:15 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/alchemy_table/alchemy_table/plant_oil": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 18:38:07 +0000"
     },
     "done": true
   },

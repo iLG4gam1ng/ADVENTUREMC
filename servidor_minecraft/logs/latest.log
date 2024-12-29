@@ -970,3 +970,11 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [29Dec2024 16:37:52.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yamazaki: Set own game mode to Spectator Mode]
 [29Dec2024 16:38:12.791] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2020ms or 40 ticks
 [29Dec2024 16:38:14.327] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[29Dec2024 16:40:52.051] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2066ms or 41 ticks
+[29Dec2024 16:44:54.568] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2121ms or 42 ticks
+[29Dec2024 16:44:56.872] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[29Dec2024 16:46:54.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yamazaki: Set own game mode to Creative Mode]
+[29Dec2024 16:46:56.523] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2129ms or 42 ticks
+[29Dec2024 16:48:47.419] [Server thread/WARN] [waterframes/]: Server seems overloading, jumping 2088ms or 41 ticks
+[29Dec2024 16:50:13.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yamazaki: Set own game mode to Survival Mode]
+[29Dec2024 16:50:55.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yamazaki: Set own game mode to Creative Mode]

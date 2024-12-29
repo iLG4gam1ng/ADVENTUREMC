@@ -29,11 +29,23 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "shrubland": "2024-12-29 16:44:58 +0000"
+    },
+    "done": true
+  },
   "parcool:grant_parcool_guide": {
     "criteria": {
       "tick": "2024-12-29 16:36:51 +0000"
     },
     "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "shrubland": "2024-12-29 16:44:58 +0000"
+    },
+    "done": false
   },
   "cataclysm:root": {
     "criteria": {
@@ -49,6 +61,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2024-12-29 16:46:38 +0000",
+      "minecraft:meadow": "2024-12-29 16:48:20 +0000",
       "minecraft:plains": "2024-12-29 16:36:54 +0000"
     },
     "done": false

@@ -1945,9 +1945,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-01-02 17:48:18 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/misc/general/injection_0": {
     "criteria": {
       "has_glass": "2025-01-02 16:45:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-01-02 17:48:20 +0000"
     },
     "done": true
   },

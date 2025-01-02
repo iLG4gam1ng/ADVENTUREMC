@@ -1939,5 +1939,11 @@
     },
     "done": true
   },
+  "vampirism:recipes/misc/general/injection_0": {
+    "criteria": {
+      "has_glass": "2025-01-02 16:45:02 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

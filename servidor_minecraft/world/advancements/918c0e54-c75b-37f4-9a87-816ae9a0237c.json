@@ -1957,6 +1957,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/oak_dark_ceiling_fan": {
+    "criteria": {
+      "has_oak_light_ceiling_fan": "2025-01-02 20:06:33 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/slicing/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2025-01-02 19:33:38 +0000"
@@ -2050,6 +2056,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-01-02 19:33:38 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/oak_dark_ceiling_fan": {
+    "criteria": {
+      "has_ceiling_fan": "2025-01-02 20:06:33 +0000"
     },
     "done": true
   },

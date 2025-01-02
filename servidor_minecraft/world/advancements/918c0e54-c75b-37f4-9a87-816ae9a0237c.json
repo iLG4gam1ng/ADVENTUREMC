@@ -1945,6 +1945,12 @@
     },
     "done": true
   },
+  "slashblade:material/proudsoul_tiny": {
+    "criteria": {
+      "BrokenBlade": "2025-01-02 20:15:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/crimson_planks": {
     "criteria": {
       "has_logs": "2025-01-02 19:13:06 +0000"
@@ -2002,6 +2008,12 @@
   "farmersdelight:recipes/decorations/crimson_cabinet": {
     "criteria": {
       "has_crimson_trapdoor": "2025-01-02 19:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-01-02 20:15:40 +0000"
     },
     "done": true
   },
@@ -2074,6 +2086,12 @@
   "fairylights:recipes/fairylights/hanging_lights": {
     "criteria": {
       "has_lights": "2025-01-02 19:17:37 +0000"
+    },
+    "done": true
+  },
+  "slashblade:root": {
+    "criteria": {
+      "attackTheEntity": "2025-01-02 20:15:31 +0000"
     },
     "done": true
   },

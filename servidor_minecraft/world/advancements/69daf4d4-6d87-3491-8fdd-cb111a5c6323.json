@@ -55,6 +55,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-01-04 00:56:55 +0000",
       "minecraft:birch_forest": "2025-01-03 18:07:57 +0000",
       "minecraft:savanna_plateau": "2024-12-28 19:25:26 +0000",
       "minecraft:stony_peaks": "2024-12-28 19:25:05 +0000",
@@ -67,6 +68,7 @@
       "minecraft:forest": "2024-12-28 19:39:51 +0000",
       "minecraft:lush_caves": "2025-01-03 19:45:32 +0000",
       "minecraft:jungle": "2025-01-03 19:22:45 +0000",
+      "minecraft:ocean": "2025-01-04 00:59:33 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-04 00:54:31 +0000",
       "minecraft:flower_forest": "2024-12-28 19:52:32 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-03 18:10:50 +0000",

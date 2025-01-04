@@ -7038,6 +7038,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/fiddlehead": {
+    "criteria": {
+      "fiddlehead": "2025-01-04 02:24:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
     "criteria": {
       "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
@@ -7422,6 +7428,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/primitive_club": {
+    "criteria": {
+      "limestone": "2025-01-04 02:24:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-01-04 01:13:06 +0000"
@@ -7479,6 +7491,12 @@
   "minecraft:recipes/redstone/acacia_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-04 00:08:01 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tree_star": {
+    "criteria": {
+      "tree_star": "2025-01-04 02:25:09 +0000"
     },
     "done": true
   },
@@ -7554,6 +7572,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/dinosaur_nugget": {
+    "criteria": {
+      "cooked_dinosaur_chop": "2025-01-04 02:24:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/black_dye_from_wither_rose": {
     "criteria": {
       "has_wither_rose": "2025-01-04 01:54:49 +0000"
@@ -7611,6 +7635,12 @@
   "vampirism:recipes/misc/gold_nugget_from_accessory_blasting": {
     "criteria": {
       "has_amulet": "2025-01-04 02:21:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-01-04 02:24:14 +0000"
     },
     "done": true
   },
@@ -7697,6 +7727,12 @@
       "limestone": "2025-01-04 01:29:44 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-01-04 02:24:14 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/holy_water_bottle_normal_from_enhanced": {
     "criteria": {

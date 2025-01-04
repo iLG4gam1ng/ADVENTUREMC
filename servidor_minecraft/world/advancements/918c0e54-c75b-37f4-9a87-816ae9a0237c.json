@@ -7038,6 +7038,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/acacia_table": {
     "criteria": {
       "has_acacia_table": "2025-01-04 00:08:01 +0000"
@@ -7053,6 +7059,18 @@
   "mcwfurnitures:recipes/acacia": {
     "criteria": {
       "has_wood": "2025-01-04 00:07:10 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/crypt": {
+    "criteria": {
+      "crypt": "2025-01-04 01:41:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
     },
     "done": true
   },
@@ -7128,6 +7146,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/acacia_desk": {
     "criteria": {
       "has_acacia_desk": "2025-01-04 00:08:01 +0000"
@@ -7161,6 +7185,12 @@
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_planks": "2025-01-04 00:08:01 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_grottol": {
+    "criteria": {
+      "grottol": "2025-01-04 01:39:59 +0000"
     },
     "done": true
   },
@@ -7410,9 +7440,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/acacia_counter": {
     "criteria": {
       "has_acacia_counter": "2025-01-04 00:08:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cooked_dinosaur_chop": {
+    "criteria": {
+      "cooked_dinosaur_chop": "2025-01-04 01:32:55 +0000"
     },
     "done": true
   },
@@ -7437,6 +7485,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2025-01-04 00:06:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
     },
     "done": true
   },
@@ -7509,6 +7563,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-01-04 00:09:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-01-04 01:41:10 +0000"
     },
     "done": true
   },

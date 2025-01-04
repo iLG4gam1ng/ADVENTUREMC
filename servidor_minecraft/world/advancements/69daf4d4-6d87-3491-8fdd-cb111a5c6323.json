@@ -2605,11 +2605,13 @@
       "lavender_forest": "2025-01-03 18:06:28 +0000",
       "moor": "2025-01-03 20:11:09 +0000",
       "mediterranean_forest": "2025-01-03 18:06:49 +0000",
+      "spider_nest": "2025-01-04 01:33:27 +0000",
       "visceral_heap": "2025-01-03 02:54:47 +0000",
       "dune_beach": "2025-01-04 01:15:38 +0000",
       "volcano": "2025-01-03 19:58:24 +0000",
       "rocky_rainforest": "2025-01-03 20:01:26 +0000",
       "volcanic_plains": "2025-01-03 19:58:21 +0000",
+      "lavender_field": "2025-01-04 01:33:29 +0000",
       "prairie": "2024-12-29 01:44:25 +0000",
       "grassland": "2025-01-03 20:03:19 +0000",
       "undergrowth": "2025-01-03 18:37:22 +0000"
@@ -7514,6 +7516,12 @@
     },
     "done": true
   },
+  "mowziesmobs:kill_grottol": {
+    "criteria": {
+      "grottol": "2025-01-04 01:33:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2025-01-04 01:24:49 +0000"
@@ -7625,6 +7633,12 @@
   "vampirism:recipes/alchemy_table/alchemy_table/fire_resistance_oil": {
     "criteria": {
       "has_bottles": "2025-01-04 01:21:53 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_big_dinosaur": {
+    "criteria": {
+      "killed_relicheirus": "2025-01-04 01:32:52 +0000"
     },
     "done": true
   },

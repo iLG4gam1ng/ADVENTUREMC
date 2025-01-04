@@ -267,8 +267,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-04 01:12:52 +0000",
       "cooked_mutton": "2024-12-28 19:26:01 +0000",
       "cooked_beef": "2025-01-03 16:16:40 +0000",
+      "apple": "2025-01-04 01:16:24 +0000",
+      "cooked_cod": "2025-01-04 01:16:36 +0000",
+      "mutton": "2025-01-04 01:19:41 +0000",
       "bread": "2024-12-28 19:29:55 +0000",
       "rotten_flesh": "2025-01-03 03:13:18 +0000",
       "cooked_chicken": "2025-01-03 17:15:54 +0000",
@@ -2599,6 +2603,7 @@
       "moor": "2025-01-03 20:11:09 +0000",
       "mediterranean_forest": "2025-01-03 18:06:49 +0000",
       "visceral_heap": "2025-01-03 02:54:47 +0000",
+      "dune_beach": "2025-01-04 01:15:38 +0000",
       "volcano": "2025-01-03 19:58:24 +0000",
       "rocky_rainforest": "2025-01-03 20:01:26 +0000",
       "volcanic_plains": "2025-01-03 19:58:21 +0000",
@@ -3719,6 +3724,7 @@
       "minecraft:skeleton": "2024-12-28 20:06:39 +0000",
       "minecraft:ghast": "2025-01-03 17:04:14 +0000",
       "minecraft:spider": "2024-12-28 20:06:55 +0000",
+      "minecraft:creeper": "2025-01-04 01:12:24 +0000",
       "minecraft:phantom": "2025-01-03 01:30:48 +0000",
       "minecraft:zombified_piglin": "2025-01-03 17:06:49 +0000",
       "minecraft:cave_spider": "2025-01-03 18:14:36 +0000",
@@ -7463,6 +7469,12 @@
     },
     "done": true
   },
+  "slashblade:arts/judgement_cut_just": {
+    "criteria": {
+      "customtrigger": "2025-01-04 01:13:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2025-01-04 00:52:44 +0000"
@@ -7508,6 +7520,18 @@
   "handcrafted:recipes/misc/black_cushion": {
     "criteria": {
       "has_black_cushion": "2025-01-04 00:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-01-04 01:15:05 +0000"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_b": {
+    "criteria": {
+      "customtrigger": "2025-01-04 01:15:00 +0000"
     },
     "done": true
   },
@@ -7559,9 +7583,33 @@
     },
     "done": true
   },
+  "slashblade:arts/aerial_cleave": {
+    "criteria": {
+      "customtrigger": "2025-01-04 01:14:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-04 00:52:43 +0000"
+    },
+    "done": true
+  },
+  "vampirism:main/ancient_knowledge": {
+    "criteria": {
+      "blood_container": "2025-01-04 01:13:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-01-04 01:15:05 +0000"
+    },
+    "done": true
+  },
+  "slashblade:arts/quick_charge": {
+    "criteria": {
+      "customtrigger": "2025-01-04 01:14:28 +0000"
     },
     "done": true
   },
@@ -7574,6 +7622,12 @@
   "biomesoplenty:recipes/transportation/mahogany_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-04 00:52:43 +0000"
+    },
+    "done": true
+  },
+  "slashblade:arts/judgement_cut": {
+    "criteria": {
+      "customtrigger": "2025-01-04 01:14:25 +0000"
     },
     "done": true
   },

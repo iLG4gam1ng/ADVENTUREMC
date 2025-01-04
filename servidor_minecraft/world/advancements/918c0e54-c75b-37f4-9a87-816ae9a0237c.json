@@ -7422,6 +7422,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2025-01-04 02:46:14 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/misc/gold_nugget_from_accessory_smelting": {
     "criteria": {
       "has_amulet": "2025-01-04 02:21:41 +0000"
@@ -7733,6 +7739,12 @@
       "has_sherd": "2025-01-04 02:24:14 +0000"
     },
     "done": false
+  },
+  "slashblade:arts/combo_b_max": {
+    "criteria": {
+      "customtrigger": "2025-01-04 02:50:16 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/holy_water_bottle_normal_from_enhanced": {
     "criteria": {
